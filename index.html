@@ -135,7 +135,6 @@ var product = PRODUCTS[pNum];
 if (!product) {
   document.getElementById('errorMsg').style.display = 'block';
   document.getElementById('btnMain').style.display  = 'none';
-  document.getElementById('btnSub').style.display   = 'none';
 } else {
   var STORE_URL = product.url;
   document.getElementById('productName').textContent = '📦 ' + product.name;
